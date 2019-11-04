@@ -1,8 +1,5 @@
-$danger:#e74c3c;
-$warning:#e67e22;
-$success:#2ecc71;
-$dark:black;
-$light:#2c3e50;
+@import "variables.scss";
+@import "mixins.scss";
 
 
 h1{
@@ -27,4 +24,11 @@ h1{
         background-color: $warning;
         color:$light;
     }
+}
+
+
+
+
+h1{
+    @include camion(blue)
 }

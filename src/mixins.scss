@@ -1,0 +1,6 @@
+
+@mixin camion($color){
+    border: 2px solid $dark;
+    background: $color;
+    font-size: 30px;
+}
