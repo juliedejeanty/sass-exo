@@ -17,4 +17,14 @@ h1{
     &:hover{
         background-color: $success;
     }
+
+    &-danger{
+        background-color: $danger;
+        color:$light;
+    }
+
+    &-warning{
+        background-color: $warning;
+        color:$light;
+    }
 }
